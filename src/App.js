@@ -3,16 +3,6 @@ import React,{ Component } from 'react';
 import './App.css';
 
 
-const ColoredLine = ({ color }) => (
-  <hr
-      style={{
-          color: color,
-          backgroundColor: color,
-          height: 5
-      }}
-  />
-);
-
 class App extends Component{
   
   render(){
@@ -44,7 +34,7 @@ class App extends Component{
           <br/>
           <span>CHEMICALS & PROCESS | POWER | WATER & WASTE WATER | OILS & GAS | PHARMA | SUGARS & DISTILLERIES | PAPER & PULP | MARINE & DEFENCE | METAL & MINING | FOOD & BEVERAGE | PETROCHEMICAL & REFINERIES | SOLAR | BUILDING | HVAC | FIRE FIGHTING | AGRICULTURE & RESIDENTIAL</span>
           </div>
-          <img className="footer" src="/images/foot.png" />
+          <img className="footer" alt="title" src="/images/foot.png" />
        
       </div>
         
